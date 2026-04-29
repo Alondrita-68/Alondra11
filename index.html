@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Credencial Estudiantil</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card-container">
+            <!-- FRENTE DE LA CREDENCIAL -->
+            <div class="credential-card" id="front">
+                <div class="card-front">
+                    <div class="header">
+                        <img src="imagenes/ubemexlogo.png" alt="Logo Escuela" class="school-logo"><!-- cambie la imagen del logo-->
+                        <h2>Unibersidad Benemerita Empresarial de México</h2>
+                        <h3>informacion del estudiante</h3>
+                    </div>
+                    
+                    <div class="student-photo">
+                        <img src="imagenes/selenagomez.jpg" alt="Foto Estudiante"><!-- cambie la imagen del estudiante-->
+                    </div>
+                    <!-- cambie la informacion de la credencial y la rellene mis datos personales-->
+                    <div class="student-info">
+                        <div class="info-row">
+                            <span class="label">Nombre del estudiante:</span>
+                            <span class="value">Alondra Macés Ramírez</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">semestre:</span>
+                            <span class="value">6° Semestre</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">Grupo:</span>
+                            <span class="value">A</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">Especialidad:</span>
+                            <span class="value">Higiene y Salud</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="label">clave de la escuela:</span>
+                            <span class="value">20DPRFOJHS58</span>
+                        </div>
+                    </div>
+                    
+                    <a href="#back" class="flip-btn">Ver datos personales</a>
+                </div>
+            </div>
+
+            <!-- REVERSO DE LA CREDENCIAL -->
+             <!-- cambie la informacion de la credencial y la rellene mis datos personales y los que les corresponde-->
+            <div class="credential-card" id="back">
+                <div class="card-back">
+                    <div class="back-header">
+                        <img src="imagenes/selenagomez.jpg" alt="Logo" class="back-logo"><!-- cambie la imagen del estudiante-->
+                        <h3>Datos personales</h3>
+                    </div>
+                    
+                    <div class="back-info">
+                        <div class="info-row-back">
+                            <span class="label-back">Dirección de la institución:</span>
+                            <span class="value-back">villa de zaachila oaxaca,la calzada</span>
+                        </div>
+                        <div class="info-row-back">
+                            <span class="label-back">numero de emergencia:</span>
+                            <span class="value-back">925 578 3515</span>
+                        </div>
+                        <div class="info-row-back">
+                            <span class="label-back">Tipo de Sangre:</span>
+                            <span class="value-back">o+</span>
+                        </div>
+                        <div class="info-row-back">
+                            <span class="label-back">tutor:</span>
+                            <span class="value-back">abigail rmz sbj</span>
+                        </div>
+                        <div class="info-row-back">
+                            <span class="label-back">sexo:</span>
+                            <span class="value-back">femenino</span>
+                        </div>
+                    </div>
+                    
+                  
+                    
+                    <a href="#front" class="flip-btn back-flip-btn">Volver al frente</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
